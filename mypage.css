@@ -1,0 +1,50 @@
+.navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 500px;
+  z-index: 1;
+  line-height: 1;
+  padding: 30px;
+}
+span {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size: 40px;
+}
+span:hover {
+  color: #303030;
+}
+body {
+  background: linear-gradient(to bottom, #ece9e6, #ffffff);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#div1 {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#table1 {
+  border-spacing: 15px;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  font-size: 55px;
+  font-weight: normal;
+  color: #303030;
+  padding: 10px;
+}
+
+
+
+
