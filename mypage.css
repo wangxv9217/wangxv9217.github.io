@@ -10,10 +10,11 @@
 span {
   font-family: 'Raleway', sans-serif;
   color: white;
-  font-size: 40px;
+  font-size: 30px;
 }
 span:hover {
   color: #303030;
+  cursor: pointer;
 }
 body {
   background: linear-gradient(to bottom, #ece9e6, #ffffff);
@@ -26,13 +27,18 @@ body {
 }
 
 #div1 {
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
 #table1 {
-  border-spacing: 15px;
+  border-spacing: 20px;
+}
+#table2 th {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .logo {
